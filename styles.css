@@ -1,0 +1,168 @@
+.attribution {
+    font-size: 15px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  #main {
+    width: 60rem;
+    height: 33rem;
+    margin: 5rem 0 2rem 0;
+    display: flex;
+  }
+  #sedan {
+    width: 20rem;
+    height: 33rem;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  #suvs {
+    width: 20rem;
+    height: 33rem;
+    background-color: hsl(184, 100%, 22%);
+  }
+  #luxury {
+    width: 20rem;
+    height: 33rem;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .cars {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 29rem;
+    margin: 2.5rem 0 0 2.5rem;
+  }
+  h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+  button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    border: 0px;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 2.5rem;
+  }
+  #sedan > .cars > button {
+    color: hsl(31, 77%, 52%);
+  }
+  #sedan > .cars > button:active {
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  #suvs > .cars > button {
+    color: hsl(184, 100%, 22%);
+  }
+  #suvs > .cars > button:active {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  #luxury > .cars > button {
+    color: hsl(179, 100%, 13%);
+  }
+  #luxury > .cars > button:active {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    height: 5rem;
+    font-size: 1rem;
+    margin-bottom: 7rem;
+  }
+  img {
+    width: 4rem;
+  }
+  button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+  @media (max-width: 64rem) {
+    #main {
+      width: 45rem;
+    }
+    #sedan {
+      width: 15rem;
+    }
+    #suvs {
+      width: 15rem;
+    }
+    #luxury {
+      width: 15rem;
+    }
+    .cars {
+      width: 10rem;
+    }
+  }
+  @media (max-width: 48rem) {
+    #main {
+      width: 42rem;
+    }
+    #sedan {
+      width: 14rem;
+    }
+    #suvs {
+      width: 14rem;
+    }
+    #luxury {
+      width: 14rem;
+    }
+  }
+  @media (max-width: 43rem) {
+    #main {
+      flex-direction: column;
+      width: 20rem;
+      height: 99rem;
+    }
+    #sedan {
+      width: 20rem;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0.5rem;
+    }
+    #suvs {
+      width: 20rem;
+    }
+    #luxury {
+      width: 20rem;
+      border-bottom-left-radius: 0.5rem;
+      border-top-right-radius: 0px;
+    }
+  }
+  @media (max-width:24rem)
+  {
+    #main
+    {
+      width: 16rem;
+    }
+    #sedan {
+      width: 16rem;
+    }
+    #suvs {
+      width: 16rem;
+    }
+    #luxury {
+      width: 16rem;
+    }
+  }
